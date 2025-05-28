@@ -1,0 +1,30 @@
+.sidebar {
+    background-color: #4e73df; /* warna biru primary */
+}
+
+.sidebar .nav-item .nav-link {
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: left;
+}
+
+.sidebar .nav-item .nav-link.active {
+    background-color: #2e59d9;
+    color: white;
+    font-weight: bold;
+}
+
+.sidebar .nav-item .nav-link:hover {
+    background-color: #2e59d9;
+    color: white;
+}
+
+.sidebar .sidebar-heading {
+    color: #f8f9fc;
+    padding-left: 20px;
+}
+
+.sidebar .nav-item .nav-link i {
+    margin-right: 10px;
+}
